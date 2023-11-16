@@ -21,30 +21,30 @@ function index() {
         <h2>Let's work together</h2>
         <div className="mail">
           <p className="email-part">
-            <a href="mailto:2023harsh.baldaniya@gmail.com">
-              2023harsh.baldaniya@gmail.com
+            <a href="mailto:priyanshumalaviya9210@gmail.com">
+            priyanshumalaviya9210@gmail.com
             </a>
           </p>
-          <p>+91 9265707138</p>
+          <p>+91 6355007117</p>
           <p>Surat, Gujarat, India</p>
         </div>
         <div className="social-icons">
           <a
-            href="https://www.instagram.com/harshbaldaniya_5/"
+            href="https://www.instagram.com/priyanshu_malaviya11/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
-            href="https://www.linkedin.com/in/hb134/"
+            href="https://www.linkedin.com/in/priyanshumalaviya/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
-            href="https://github.com/HarshBaldaniya"
+            href="https://github.com/Priyanshu9898"
             target="_blank"
             rel="noopener noreferrer"
           >

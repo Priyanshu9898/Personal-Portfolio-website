@@ -46,31 +46,31 @@ export default function index() {
         </div>
         <div className={styles.nav}>
           <a
-            href="mailto:2023harsh.baldaniya@gmail.com"
+            href="mailto:priyanshumalaviya9210@gmail.com"
             className={styles.link}
           >
             <Rounded>
-              <p>2023harsh.baldaniya@gmail.com</p>
+              <p>priyanshumalaviya9210@gmail.com</p>
             </Rounded>
           </a>
           <Rounded>
-            <p>+91 9265707138</p>
+            <p>+91 6355007117</p>
           </Rounded>
         </div>
         <div className={styles.info}>
           <div>
             <span>
               <h3>socials</h3>
-              <a href="https://www.linkedin.com/in/hb134/" className={styles.link} target="/blank">
+              <a href="https://www.linkedin.com/in/priyanshumalaviya/" className={styles.link} target="/blank">
               <Magnetic>
                 <p>Linkedin</p>
               </Magnetic></a>
             </span>
-            <a href="https://www.instagram.com/harshbaldaniya_5/" className={styles.link} target="/blank">
+            <a href="https://www.instagram.com/priyanshu_malaviya11/" className={styles.link} target="/blank">
             <Magnetic>
               <p>Instagram</p>
             </Magnetic></a>
-            <a href="https://github.com/HarshBaldaniya" className={styles.link} target="/blank">
+            <a href="https://github.com/Priyanshu9898" className={styles.link} target="/blank">
             <Magnetic>
               <p>Github</p>
             </Magnetic></a>

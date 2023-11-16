@@ -66,14 +66,18 @@ export default function Home() {
   const [text] = useTypewriter({
     words: [
       "a Student",
+      "a Researcher",
       "a Quick Learner",
-      "a MERN Stack Developer",
-      "a Graphic Designer",
-      "a Video Editor",
-      "the Treasurer of Flim Making Club",
-      "an ACM CP Member",
-      "the S&T Committee GD HEAD",
-      "the GD HEAD of Mathematics Club",
+      "Research Intern - ISRO",
+      // "Software development Intern - eInfochips (An Arrow Company)",
+      // "Software development Intern - AlphaBI",
+      "a Software Engineer",
+      "a Full Stack Developer",
+      "ML lead - GDSC PDEU",
+      "AI/ML Head - ACM PDEU",
+      "Web Lead - TedX PDEU 2023",
+      "Web Lead - ENCODE PDEU",
+      
     ],
     loop: 0,
     typeSpeed: 50,
@@ -102,7 +106,7 @@ export default function Home() {
                 animate={mainControls}
                 transition={{ duration: 0.5, delay: 3 }}
               >
-                Hey, I&apos;m Harsh<span>.</span>
+                Hey, I&apos;m Priyanshu<span>.</span>
                 <span className="wave-emoji">👋</span>
               </motion.h1>
               <motion.h2
@@ -135,7 +139,7 @@ export default function Home() {
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-white
                 border-2 border-solid border-transparent hover:border-white outline-none"
                 >Resume</Link>
-                <Link href="mailto:2023harsh.baldaniya@gmail.com" className="ml-4 mr-4 text-lg font-medium capitalize text-white underline">Connect</Link>
+                <Link href="mailto:priyanshumalaviya9210@gmail.com" className="ml-4 mr-4 text-lg font-medium capitalize text-white underline">Connect</Link>
               </motion.div>
               <motion.div
                 variants={{
