@@ -1,0 +1,36 @@
+.main-Skills{
+    display: flex;
+    margin: 3rem 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headpart{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    /* margin: 20px 0; */
+}
+
+.circle-part{
+    position: relative;
+    margin-bottom: 3rem;
+    background: repeating-radial-gradient(rgba(0,0,0,0.5) 2px, #fff 5px, #fff 155px);
+}
+
+.mobile-part{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .circle-part{
+        display: none;
+    }
+
+    .mobile-part{
+        display: block;
+    }
+  }
