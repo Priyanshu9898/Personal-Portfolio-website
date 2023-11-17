@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 'use client';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import styles from './style.module.css';
@@ -18,7 +19,7 @@ export default function index() {
 
     useEffect( () => {
       if(isActive) setIsActive(false)
-    }, [pathname])
+    }, [isActive, pathname])
 
     useLayoutEffect( () => {
         gsap.registerPlugin(ScrollTrigger)

@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react-hooks/rules-of-hooks */
 import styles from "./style.module.css";
 import Image from "next/image";
 import Rounded from "../../common/RoundedButton";

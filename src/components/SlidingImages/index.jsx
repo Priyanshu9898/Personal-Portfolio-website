@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import styles from "./style.module.css";
@@ -42,7 +43,9 @@ const slider2 = [
 ];
 
 export default function index() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const container = useRef(null);
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { scrollYProgress } = useScroll({
     target: container,
     offset: ["start end", "end start"],

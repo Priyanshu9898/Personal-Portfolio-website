@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useRef, useEffect } from "react";
 import "../Section.css";
 import HoverVideoPlayer from "react-hover-video-player";

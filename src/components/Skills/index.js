@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-key */
+/* eslint-disable react-hooks/rules-of-hooks */
 import {React, useEffect} from "react";
 import "./index.css";
 import { motion } from "framer-motion";

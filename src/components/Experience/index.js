@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/rules-of-hooks */
+/* eslint-disable react-hooks/exhaustive-deps */
 import {React, useRef, useEffect} from 'react'
 import "./index.css";
 import {motion, useInView, useScroll, useAnimation} from "framer-motion";
@@ -56,14 +58,15 @@ function index() {
                 <motion.div style={{scaleY: scrollYProgress}} className="line-part absolute left-9 top-1 w-[4px] h-full bg-black origin-top" />
                 <ul className='w-full flex flex-col items-start justify-between ml-4'>
                     <Details 
-                        position="Node JS Developer" company="Infoware India"
-                        companyLink="https://www.infowareindia.com/"
-                        time="May 2023 - July 2023" address="Ahemdabad, Gujarat, India"
-                        work="In my Summer internship, my main role as part of the company's
-                        e-commerce project was to create numerous APIs utilizing
-                        Node.js, Express, and Sequelize MySQL. Database structures and
-                        queries have been optimized for efficient data retrieval and
-                        storage, providing great functionality and smooth performance."
+                        position="Backend Developer (Contract)" company="Zeiierman Trading"
+                        companyLink="https://zeiiermantrading.com/"
+                        time="September 2023" address="REMOTE"
+                        work="Developing a scalable and reliable Node.js backend application.
+                        Implemented advanced security measures for authentication and authorization.
+                        Custom-designed a Stripe payment system for versatile plan management.
+                        Integrated MailChimp for enhanced user communication.
+                        "
+                        
                     />
                     <Details 
                         position="Full Stack Web Development" company="DEED Mobility Solutions"

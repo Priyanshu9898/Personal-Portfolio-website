@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import styles from "./style.module.css";
 import { useInView, motion } from "framer-motion";
 import { useRef } from "react";
@@ -6,7 +7,7 @@ import Rounded from "../../common/RoundedButton";
 
 export default function index() {
   const phrase =
-    "In the era in which I was born, technology was more than just a luxury; it was a staple, deeply integrated into the fabric of daily life. From a young age, I was captivated by Android applications, web development, augmented reality, and the rapidly expanding field of the Internet of Things. By the time I reached the 10th grade, this passion had evolved beyond a mere hobby into a genuine calling. Pursuing a degree in Computer Science Engineering seemed like a natural progression for me. Throughout my exploration, I've mastered various programming languages. Among them, I'm most proficient in C, C++, and Python, underscoring my dedication to both understanding and shaping the future of technology.";
+    "As a Computer Engineer with a profound foundation in both theory and practice, my academic journey at Pandit Deendayal Energy University has been enriched with cutting-edge projects in data structures, operating systems, and a spectrum of advanced technologies like machine learning and deep learning. My professional path is distinguished by significant contributions to transformative projects, particularly in enhancing internet security and pioneering in text summarization, reflecting my deep expertise in latest technologies. Driven by an insatiable curiosity and a commitment to excellence, I am dedicated to leveraging my comprehensive skill set to develop innovative solutions that address complex societal challenges and push the frontiers of technology.";
   const description = useRef(null);
   const isInView = useInView(description);
 

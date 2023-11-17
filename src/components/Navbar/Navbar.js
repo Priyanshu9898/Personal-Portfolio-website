@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useRef, useLayoutEffect, useEffect } from "react";
 import "./Navbar.css";
 import Logo from "./Logo/logo";

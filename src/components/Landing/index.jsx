@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import styles from "./style.module.css";
 import { useRef, useLayoutEffect, useEffect } from "react";

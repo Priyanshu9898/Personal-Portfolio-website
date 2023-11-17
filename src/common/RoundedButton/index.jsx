@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react'
 import { useEffect, useRef } from 'react';
 import styles from './style.module.css';

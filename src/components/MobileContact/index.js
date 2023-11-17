@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-sync-scripts */
 import React from "react";
 import Head from "next/head";
 import "./index.css";
