@@ -135,7 +135,7 @@ export default function Home() {
                 whileHover={{ scale: 1.2 }}
                 className="resume-btn flex items-center mt-2"
               >
-                <Link href="/resume.pdf" target="_blank" 
+                <Link href="/Prriyashu_Resume.pdf" target="_blank" 
                 className="transition ease-in-out delay-100 transition-duration:1.5s flex items-center bg-white text-light p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-white
                 border-2 border-solid border-transparent hover:border-white outline-none"

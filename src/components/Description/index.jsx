@@ -13,7 +13,7 @@ export default function index() {
 
   const handleDownloadResume = () => {
     // Replace 'path-to-your-resume.pdf' with the actual path to your PDF resume
-    const resumeURL = "https://drive.google.com/file/d/1eStyOViM7Hzypfzxac81jfIeeiHe7Npt/view";
+    const resumeURL = "https://drive.google.com/file/d/1TArgGRhzW79oUXrdo-n82c55YN-MrswM/view?usp=sharing";
     window.open(resumeURL, "_blank");
   };
 
