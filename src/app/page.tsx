@@ -10,6 +10,7 @@ import Contact from "./../components/Contact/index.jsx";
 import Work from "./../components/WorkPart/index";
 import Skills from "./../components/Skills/index";
 import Experiences from "./../components/Experience/index";
+import Publications from "./../components/Publication/index";
 import MobileContact from "./../components/MobileContact/index";
 import Preloader from "./../components/Preloader/index.jsx";
 import { AnimatePresence } from "framer-motion";
@@ -44,6 +45,7 @@ export default function Home() {
         <AboutPart />
         <Skills />
         <Experiences />
+        <Publications />
         <Work />
         <Project />
         <SlidImg />
