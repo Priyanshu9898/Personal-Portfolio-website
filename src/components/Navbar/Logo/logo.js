@@ -8,7 +8,7 @@ function Logo() {
       <div>
         <Link href="/">
           <motion.img
-            src="https://i.postimg.cc/rFNCP74G/HB-LOGO3.png"
+            src="https://i.postimg.cc/Pfwb0Fyv/7074147.jpg"
             className="logoImg"
             alt="Logo"
             whileHover={{ scale: 1.2 }}

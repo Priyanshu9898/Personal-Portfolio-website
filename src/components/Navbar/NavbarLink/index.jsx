@@ -50,7 +50,7 @@ export default function index() {
               </Magnetic>
             </Link>
             <Link
-              href="#blogs"
+              href="https://medium.com/@priyanshumalaviya9210"
               className={styles.link}
             >
               <Magnetic>

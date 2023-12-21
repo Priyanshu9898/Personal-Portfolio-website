@@ -43,9 +43,9 @@ export default function Home() {
         <Navbar />
         <HomePart />
         <AboutPart />
-        <Skills />
         <Experiences />
         <Publications />
+        <Skills />
         <Work />
         <Project />
         <SlidImg />

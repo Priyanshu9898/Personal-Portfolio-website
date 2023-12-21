@@ -57,16 +57,10 @@ function index() {
     offset: ["start end", "center start"],
   });
 
-  const AlphaBIPoints = [
-    `Led the design and implementation of a SaaS product, starting with the scraping of over 60k hotel reviews from various sites using Puppeteer and BeautifulSoup, ensuring data accuracy and relevance.`,
-    `Applied data cleaning, processing and fine-tuned prediction models using OpenAI, achieving significant enhancements in accuracy and relevance for the targeted dataset.`,
-    `Developed a real-time data processing streaming pipeline using Python-Kafka, delivering immediate insights to end-users.`,
-    `Managed frontend development task of inventory management system using Next.js, Prisma, Shadcn.ui, and MongoDB with a focus on user authentication, role-based access control authorization and third-party API integrations, substantially enriching the product's functionality.`,
-    `Worked on RIA-mailer, fixed existing bugs, refactored the whole code to typescript, added additional features`,
-  ];
+
   return (
     <>
-      <div className="main-exp" id="experience">
+      <div className="main-exp" id="publications">
         <h1 className="font-bold text-8x1 w-full text-center">Publications</h1>
         <div ref={ref} className="exp-part w-[75%] mx-auto relative">
           <motion.div
