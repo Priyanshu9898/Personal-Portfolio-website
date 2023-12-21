@@ -9,35 +9,48 @@ import Rounded from '../../common/RoundedButton';
 
 const projects = [
   {
-    title: "Portfolio 1.O",
+    title: "Text Summarization",
     src: "portfolio.png",
     color: "#8C8C8C",
-    desc: "Personal web site", 
+    desc: "Instantly transform dense text into clear summaries",
+    url: "https://github.com/Priyanshu9898/Text-Summarization"
   },
   {
-    title: "ChatBud Connect",
+    title: "Kidney Disease Classification",
     src: "HB-CHAT.png",
     color: "#8C8C8C",
-    desc: "Real Time Chat App using Node", 
+    desc: "Kidney Disease Classification Using Deep learning", 
+    url:"https://github.com/Priyanshu9898/Kidney-Disease-Classification-Deep-Learning-Project"
   },
   {
-    title: "Image Resizer",
+    title: "You Tube Transcript Summarizer",
     src: "CLOUD.png",
     color: "#8C8C8C",
-    desc: "Cloud Project", 
+    desc: "You tube transcript Summarizer using Nextjs and Python", 
+    url: "https://github.com/Priyanshu9898/You-Tube-Transcript-Summarizer"
   },
   {
-    title: "ChatBud Connect",
+    title: "To-DO app",
+    src: "CLOUD.png",
+    color: "#8C8C8C",
+    desc: "Todo app created using Next.js and Firebase", 
+    url: "https://github.com/Priyanshu9898/Todo-app"
+  },
+  {
+    title: "You Tube Transcript Summarizer",
+    src: "CLOUD.png",
+    color: "#8C8C8C",
+    desc: "You tube transcript Summarizer using Nextjs and Python", 
+    url: "https://github.com/Priyanshu9898/You-Tube-Transcript-Summarizer"
+  },
+  {
+    title: "TripAdvisor Scraper",
     src: "javaproject.png",
     color: "#EFE8D3",
-    desc: "Real Time Chat App using Java", 
+    desc: "Scraping Hotel details with reviews using BeautifulSoup and Python", 
+    url: "https://github.com/Priyanshu9898/TripAdvisor-Scraper"
   },
-  {
-    title: "ShopLink",
-    src: "AMAZONCLONE.png",
-    color: "#706D63",
-    desc: "E-commerce", 
-  },
+  
 ];
 
 

@@ -22,7 +22,7 @@ export default function index() {
         <div className={styles.title}>
           <span>
             <div className={styles.imageContainer}>
-              <Image fill={true} alt={"image"} src={`/images/HB-LOGO3.png`} />
+              <Image fill={true} alt={"image"} src={`/images/logo_pm.png`} />
             </div>
             <h2>Let's work</h2>
           </span>
