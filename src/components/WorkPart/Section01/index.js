@@ -52,7 +52,7 @@ function Index() {
             animate={textControls}
             transition={{ duration: .3, delay: 0.3 }}
           >
-            Cash App
+            PixelPioneer SaaS AI Tool
           </motion.h1>
           <motion.p
             variants={textVariants}
@@ -68,12 +68,12 @@ function Index() {
           animate={textControls}
           transition={{ duration: .3, delay: 0.5 }}
           >
-          <Link href="https://cash-app-first.vercel.app/" target="_blank" 
+          <Link href="https://pixel-pioneer.vercel.app/" target="_blank" 
                 className="btn-view transition ease-in-out delay-100 transition-duration:1.5s flex items-center bg-red-700 text-white p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-black
                 border-2 border-solid border-transparent hover:border-black outline-none"
                 >LIVE</Link>
-          <Link href="https://github.com/HarshBaldaniya/CashApp-Task" target="_blank" 
+          <Link href="https://github.com/Priyanshu9898/PixelPioneer-AI-tool" target="_blank" 
                 className="btn-view transition ease-in-out delay-100 transition-duration:1.5s flex items-center bg-black text-white p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-black
                 border-2 border-solid border-transparent hover:border-black outline-none"

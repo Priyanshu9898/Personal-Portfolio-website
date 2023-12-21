@@ -52,7 +52,7 @@ function Index() {
             animate={textControls}
             transition={{ duration: .3, delay: 0.3 }}
           >
-            SnapShop
+            Chest Cancer Classification
           </motion.h1>
           <motion.p
             variants={textVariants}
@@ -60,7 +60,7 @@ function Index() {
             animate={textControls}
             transition={{ duration: .3, delay: 0.4 }}
           >
-            Crafted an online shopping platform utilizing React.js, Node.js, and MongoDB, integrating swift product sorting, secure user validation including Google login, and an intuitive cart system, Resulting in a 25% uptick in user interaction and a 20% enhancement in conversion rates.
+           CT Scan Chest Cancer Classification using Deep learning, Transformers, mlflow, DVC, AWS
           </motion.p>
           <motion.div className="btn-part" 
           variants={textVariants}
@@ -68,12 +68,12 @@ function Index() {
           animate={textControls}
           transition={{ duration: .3, delay: 0.5 }}
           >
-          <Link href="https://hb-store.vercel.app/" target="_blank" 
+          <Link href="https://github.com/Priyanshu9898/Chest-Cancer-Classification" target="_blank" 
                 className="btn-view transition ease-in-out delay-100 transition-duration:1.5s flex items-center bg-red-700 text-white p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-black
                 border-2 border-solid border-transparent hover:border-black outline-none"
                 >LIVE</Link>
-          <Link href="https://github.com/HarshBaldaniya/HB-Store" target="_blank" 
+          <Link href="https://github.com/Priyanshu9898/Chest-Cancer-Classification" target="_blank" 
                 className="btn-view transition ease-in-out delay-100 transition-duration:1.5s flex items-center bg-black text-white p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-black
                 border-2 border-solid border-transparent hover:border-black outline-none"

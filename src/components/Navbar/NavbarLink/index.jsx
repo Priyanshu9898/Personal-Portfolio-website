@@ -52,6 +52,7 @@ export default function index() {
             <Link
               href="https://medium.com/@priyanshumalaviya9210"
               className={styles.link}
+              target="_blank"
             >
               <Magnetic>
                 <p>Blogs</p>

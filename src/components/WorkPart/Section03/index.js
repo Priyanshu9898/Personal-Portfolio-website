@@ -52,7 +52,8 @@ function Index() {
             animate={textControls}
             transition={{ duration: .3, delay: 0.3 }}
           >
-            WisdomYT
+            Skillshare 
+
           </motion.h1>
           <motion.p
             variants={textVariants}
@@ -60,7 +61,7 @@ function Index() {
             animate={textControls}
             transition={{ duration: .3, delay: 0.4 }}
           >
-            Developed a cutting-edge video search and playback with ReactJS and RapidAPI, resulting in a rapid 25% improvement in video discovery and a staggering 40% increase in user engagement.
+            Course Sharing Platform with Interactive Admin Dashboard
           </motion.p>
           <motion.div className="btn-part" 
           variants={textVariants}
@@ -68,12 +69,12 @@ function Index() {
           animate={textControls}
           transition={{ duration: .3, delay: 0.5 }}
           >
-          <Link href="https://hb-tube.netlify.app/" target="_blank" 
+          <Link href="https://skillshare-pied.vercel.app/" target="_blank" 
                 className="btn-view transition ease-in-out delay-100 transition-duration:1.5s flex items-center bg-red-700 text-white p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-black
                 border-2 border-solid border-transparent hover:border-black outline-none"
                 >LIVE</Link>
-          <Link href="https://github.com/HarshBaldaniya/HB-Tube" target="_blank" 
+          <Link href="https://github.com/Priyanshu9898/SkillShare-A-Course-Website" target="_blank" 
                 className="btn-view transition ease-in-out delay-100 transition-duration:1.5s flex items-center bg-black text-white p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-black
                 border-2 border-solid border-transparent hover:border-black outline-none"

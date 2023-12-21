@@ -53,7 +53,7 @@ function Index() {
             animate={textControls}
             transition={{ duration: .3, delay: 0.3 }}
           >
-            The Book Show
+            Expense Management System
           </motion.h1>
           <motion.p
             variants={textVariants}
@@ -61,7 +61,7 @@ function Index() {
             animate={textControls}
             transition={{ duration: .3, delay: 0.4 }}
           >
-            This project is a web application that helps you keep track of the books you have read, want to read, and are currently reading. Whether you're a book lover or just looking for a new book to read, The Book Show has everything you need!
+            The Expense Management System Using MERN stack
           </motion.p>
           <motion.div className="btn-part" 
           variants={textVariants}
@@ -69,12 +69,12 @@ function Index() {
           animate={textControls}
           transition={{ duration: .3, delay: 0.5 }}
           >
-          <Link href="https://www.youtube.com/watch?v=EiSIqneJaYQ&ab_channel=HarshBaldaniya" target="_blank" 
+          <Link href="https://expense-tracker-app-three-beryl.vercel.app/" target="_blank" 
                 className="btn-view transition ease-in-out delay-100 transition-duration:1.5s flex items-center bg-red-700 text-white p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-black
                 border-2 border-solid border-transparent hover:border-black outline-none"
                 >LIVE</Link>
-          <Link href="https://github.com/HarshBaldaniya/MyBookShow" target="_blank" 
+          <Link href="https://github.com/Priyanshu9898/Expense-Tracker-App" target="_blank" 
                 className="btn-view transition ease-in-out delay-100 transition-duration:1.5s flex items-center bg-black text-white p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-black
                 border-2 border-solid border-transparent hover:border-black outline-none"
